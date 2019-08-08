@@ -1,0 +1,19 @@
+.todo {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.todoDataContainer {
+    display: flex;
+}
+
+.status {
+    width: 25px;
+    height: 25px;
+}
+.delete {
+    align-self: flex-end;
+    cursor: pointer;
+}
