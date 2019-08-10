@@ -1,5 +1,5 @@
 import * as actionTypes from '../actions/actionTypes';
-import { arrayMove } from "react-sortable-hoc";
+import arrayMove from "array-move";
 import uuid from 'uuid/v1';
 
 const stateFromLocalStorage = JSON.parse(localStorage.getItem('state'));
